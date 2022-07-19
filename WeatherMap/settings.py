@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a+ct*+20kju(!y_1!@ho$5#%mj+x*mi^k!csb53x1bz_8(%&tj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['weatheraaap.herokuapp.com']
 
 ROOT_URLCONF = 'weatherapp.urls'
 
