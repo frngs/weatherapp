@@ -22,7 +22,7 @@ def index(request):
             res = requests.get(url.format(city.name)).json()
             city_info={
                 'city': city.name,
-                'temp': ["weather"][0]["icon"]
+                'temp': res["weather"][0]["icon"]
             }
             all_cities.append(city_info)
     except KeyError:
